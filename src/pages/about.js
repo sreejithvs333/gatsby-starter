@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../components/header';
 
 export default function About() {
   return (
     <div style={{ color: `purple` }}>
-      <h1>Hello Gatsby!</h1>
+      <Header/>
       <p>What a world.</p>
     </div>
   );
